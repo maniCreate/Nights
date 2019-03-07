@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Photos
 
-class ViewController: UIViewController {
+class CameraVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet var cameraView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
 
