@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF11483422353759007A427D /* SettingTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11483322353759007A427D /* SettingTableVC.swift */; };
 		BFCAD2DF22310C1900C61C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2DE22310C1900C61C5D /* AppDelegate.swift */; };
 		BFCAD2E122310C1900C61C5D /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2E022310C1900C61C5D /* CameraVC.swift */; };
 		BFCAD2E422310C1900C61C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCAD2E222310C1900C61C5D /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		BFCAD2E922310C1900C61C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCAD2E722310C1900C61C5D /* LaunchScreen.storyboard */; };
 		BFCAD2F422310C1A00C61C5D /* NightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2F322310C1A00C61C5D /* NightsTests.swift */; };
 		BFCAD2FF22310C1A00C61C5D /* NightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2FE22310C1A00C61C5D /* NightsUITests.swift */; };
-		BFCAD30D22310F8A00C61C5D /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD30C22310F8A00C61C5D /* SettingVC.swift */; };
 		BFCAD3112231173B00C61C5D /* NavigationBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD3102231173B00C61C5D /* NavigationBarSettings.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF11483322353759007A427D /* SettingTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableVC.swift; sourceTree = "<group>"; };
 		BFCAD2DB22310C1900C61C5D /* Nights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCAD2DE22310C1900C61C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCAD2E022310C1900C61C5D /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		BFCAD2FA22310C1A00C61C5D /* NightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCAD2FE22310C1A00C61C5D /* NightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightsUITests.swift; sourceTree = "<group>"; };
 		BFCAD30022310C1A00C61C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCAD30C22310F8A00C61C5D /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		BFCAD3102231173B00C61C5D /* NavigationBarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 				BFCAD2DE22310C1900C61C5D /* AppDelegate.swift */,
 				BFCAD3102231173B00C61C5D /* NavigationBarSettings.swift */,
 				BFCAD2E022310C1900C61C5D /* CameraVC.swift */,
-				BFCAD30C22310F8A00C61C5D /* SettingVC.swift */,
+				BF11483322353759007A427D /* SettingTableVC.swift */,
 				BFCAD2E222310C1900C61C5D /* Main.storyboard */,
 				BFCAD2E522310C1900C61C5D /* Assets.xcassets */,
 				BFCAD2E722310C1900C61C5D /* LaunchScreen.storyboard */,
@@ -264,7 +264,7 @@
 			files = (
 				BFCAD3112231173B00C61C5D /* NavigationBarSettings.swift in Sources */,
 				BFCAD2E122310C1900C61C5D /* CameraVC.swift in Sources */,
-				BFCAD30D22310F8A00C61C5D /* SettingVC.swift in Sources */,
+				BF11483422353759007A427D /* SettingTableVC.swift in Sources */,
 				BFCAD2DF22310C1900C61C5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
