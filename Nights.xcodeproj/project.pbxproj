@@ -16,6 +16,7 @@
 		BFCAD2F422310C1A00C61C5D /* NightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2F322310C1A00C61C5D /* NightsTests.swift */; };
 		BFCAD2FF22310C1A00C61C5D /* NightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD2FE22310C1A00C61C5D /* NightsUITests.swift */; };
 		BFCAD3112231173B00C61C5D /* NavigationBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAD3102231173B00C61C5D /* NavigationBarSettings.swift */; };
+		BFED3D632240D47E00BA4D16 /* gridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED3D622240D47E00BA4D16 /* gridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BFCAD2FE22310C1A00C61C5D /* NightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightsUITests.swift; sourceTree = "<group>"; };
 		BFCAD30022310C1A00C61C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCAD3102231173B00C61C5D /* NavigationBarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarSettings.swift; sourceTree = "<group>"; };
+		BFED3D622240D47E00BA4D16 /* gridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BFCAD2E022310C1900C61C5D /* CameraVC.swift */,
 				BF11483322353759007A427D /* SettingTableVC.swift */,
 				BFCAD2E222310C1900C61C5D /* Main.storyboard */,
+				BFED3D622240D47E00BA4D16 /* gridView.swift */,
 				BFCAD2E522310C1900C61C5D /* Assets.xcassets */,
 				BFCAD2E722310C1900C61C5D /* LaunchScreen.storyboard */,
 				BFCAD2EA22310C1900C61C5D /* Info.plist */,
@@ -265,6 +268,7 @@
 				BFCAD3112231173B00C61C5D /* NavigationBarSettings.swift in Sources */,
 				BFCAD2E122310C1900C61C5D /* CameraVC.swift in Sources */,
 				BF11483422353759007A427D /* SettingTableVC.swift in Sources */,
+				BFED3D632240D47E00BA4D16 /* gridView.swift in Sources */,
 				BFCAD2DF22310C1900C61C5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
